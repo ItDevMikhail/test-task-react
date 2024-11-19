@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.MuiAccordionSummary-root {
+  &:hover .icon-container {
+    opacity: 1;
+  }
+}
+.MuiAccordionSummary-content {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.icon-container {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
